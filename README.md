@@ -205,13 +205,13 @@ Returns the currently authenticated user.
 
 | Param | Type | Example |
 |---|---|---|
-| `type` | `income\|expense` | `?type=income` |
-| `category` | string | `?category=Rent` |
-| `dateFrom` | YYYY-MM-DD | `?dateFrom=2024-01-01` |
-| `dateTo` | YYYY-MM-DD | `?dateTo=2024-03-31` |
-| `search` | string | `?search=salary` |
-| `page` | number | `?page=2` |
-| `limit` | 1–100 | `?limit=10` |
+| `type` | `income\|expense` | `income` |
+| `category` | string | `Rent` |
+| `dateFrom` | YYYY-MM-DD | `2024-01-01` |
+| `dateTo` | YYYY-MM-DD | `2024-03-31` |
+| `search` | string | `salary` |
+| `page` | number | `2` |
+| `limit` | 1–100 | `10` |
 
 ---
 
